@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+
+    
+}
+body{
+    background: linear-gradient(to top right,#000000 90%, #1a9883);
+    color:#effffe;
+}
+.header{
+    position: fix;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    /*background: transparent;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+.logo{
+    font-size: 30px;
+    color: #effffe;
+    position: center;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a{
+    font-size: 18px;
+    color: #effffe;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    
+}
+.navbar a:hover,
+.navbar a.active{
+    color: #89dee5;
+}
+
+.home{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    background: url("/imagenes/portafolioHOME.jpeg") no-repeat;
+    background-size: 1500px;
+    background-position-x: center;
+    background-position-y:center;
+    opacity: .8;
+    padding: 0 10%;
+}
+.home-degra1{
+    height: 90vh;
+    width: 50%;
+    
+}
+.home-degra2{
+    position: relative;
+    height: 90vh;
+    width: 50%;
+    
+}
