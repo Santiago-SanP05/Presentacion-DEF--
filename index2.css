@@ -58,11 +58,13 @@ body{
 .home-degra1{
     height: 90vh;
     width: 50%;
+    border: 2px solid red;
     
 }
 .home-degra2{
     position: relative;
     height: 90vh;
     width: 50%;
+    border: 2px solid green;
     
 }
