@@ -48,7 +48,8 @@ body{
     height: 90vh;
     background: url("/imagenes/imagen\ abstracta.jpeg") no-repeat;
     background-size: 450px;
-    background-position-x: 880px;
+    background-position-x: 98vh;
+    
     background-position-y:center ;
     display: flex;
     align-items: center;

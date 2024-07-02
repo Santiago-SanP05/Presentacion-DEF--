@@ -47,24 +47,46 @@ body{
 .home{
     height: 90vh;
     display: flex;
-    align-items: center;
     background: url("/imagenes/portafolioHOME.jpeg") no-repeat;
     background-size: 1500px;
     background-position-x: center;
     background-position-y:center;
-    opacity: .8;
-    padding: 0 10%;
-}
-.home-degra1{
-    height: 90vh;
-    width: 50%;
     border: 2px solid red;
+    justify-content: space-evenly;
     
+    color: #92eef0;
 }
-.home-degra2{
-    position: relative;
-    height: 90vh;
-    width: 50%;
-    border: 2px solid green;
+.izqui{
+    margin-left: 3%;
+    align-items: flex-start;
+    justify-content: end;
+    width: 40%;
+    border: 2px solid red
+}
+.izqui h1{
+    display: flex;
+    margin-left: 5%;
+    justify-content: flex-start;
+    padding: 25% 0;
+    font-weight: 600;
+    font-size: 3em;
+    color: #083d34;
+}
+
+.izqui p {
+    margin-left: 20%;
+    font-size: 20px;
+    margin-right: 10%;
+}
+.dere{
     
+    margin-right: 3%;
+    width: 40%;
+    border: 2px solid red;
+}
+.dere p{
+    margin-left: 5%;
+    padding: 17% 0;
+    font-size: 1.3em;
+    margin-right: 8%;
 }
