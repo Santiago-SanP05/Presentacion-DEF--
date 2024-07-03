@@ -47,9 +47,8 @@ body{
 .home{
     height: 90vh;
     background: url("/imagenes/imagen\ abstracta.jpeg") no-repeat;
-    background-size: 450px;
-    background-position-x: 98vh;
-    
+    background-size: 61vh;
+    background-position-x: 100vh;
     background-position-y:center ;
     display: flex;
     align-items: center;
@@ -185,8 +184,8 @@ body{
 .home-imgHover{
     position: relative;
     top: 0;
-    right: -115px;
-    width: 500px;
+    right: 0;
+    width: 62vh;
     height: 100%;
     background: transparent;
     transition: 3s;

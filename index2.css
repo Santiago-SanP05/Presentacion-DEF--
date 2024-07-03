@@ -51,17 +51,15 @@ body{
     background-size: 1500px;
     background-position-x: center;
     background-position-y:center;
-    border: 2px solid red;
     justify-content: space-evenly;
     
-    color: #92eef0;
+    color: #496666;
 }
 .izqui{
     margin-left: 3%;
     align-items: flex-start;
     justify-content: end;
     width: 40%;
-    border: 2px solid red
 }
 .izqui h1{
     display: flex;
@@ -71,22 +69,35 @@ body{
     font-weight: 600;
     font-size: 3em;
     color: #083d34;
+    transition: .4s;
 }
 
 .izqui p {
     margin-left: 20%;
     font-size: 20px;
     margin-right: 10%;
+    transition: .8s;
+}
+.izqui h1:hover{
+    color: #1a9883;
+    font-size: 3.2em;
+}
+.izqui p:hover{
+    color:#89dee5;
+    font-size: 24px;
 }
 .dere{
-    
     margin-right: 3%;
     width: 40%;
-    border: 2px solid red;
 }
 .dere p{
-    margin-left: 5%;
+    margin-left: 10%;
     padding: 17% 0;
     font-size: 1.3em;
     margin-right: 8%;
+    transition: .6s;
+}
+.dere p:hover{
+    color:#b9faff;
+    font-size: 24px;
 }

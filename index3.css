@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+
+    
+}
+body{
+    background: #0d0d0b;
+    color:#effffe;
+}
+.header{
+    position: fix;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    animation: img 6s linear 0s infinite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+.logo{
+    font-size: 30px;
+    color: #effffe;
+    position: center;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a{
+    font-size: 18px;
+    color: #effffe;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    
+}
+.navbar a:hover,
+.navbar a.active{
+    color: #89dee5;
+}
+.content{
+    display: flex;
+    align-items: center;
+}
+.content1{
+    margin-left: 5%;
+    display: inline-block;
+    width: 43%;
+    height: 90vh; 
+    color:#89dee5;
+}
+.content1 h1{
+    display: flex;
+    justify-content: center;
+    padding: 25% 0;
+    transition: .8s;
+}
+.content1 p{
+    display: flex;
+    width: 80vh;
+    justify-content: center;
+}
+.content1 h1:hover{
+    font-size: 1.7em;
+
+}
+.content2{
+    display: flex;
+    margin-left: 5%;
+    width: 40%;
+    height: 80vh;
+    align-items: center;
+    transition: 2s;
+    border-radius: 10px;
+}
+.content2 p{
+    font-size: 1.5em;
+    color:#0d0d0b;
+    transition: 2s;
+}
+.content2 p:hover{
+    color: white;
+}
+.content2:hover{
+    animation: img 5s linear 0s infinite;
+    transition-delay: 1s;
+}
+
+@keyframes img{
+    0%{ background: url(https://ideogram.ai/assets/progressive-image/balanced/response/abo3KMsfQEWhygqNXXqKBA);}
+    25%{ background: url(https://ideogram.ai/assets/progressive-image/balanced/response/ghnBoBODRtqB-InEUJqCMA);}
+    50%{ background: url(https://ideogram.ai/assets/progressive-image/balanced/response/4uual8pTTgy36U4sC-bbuw);}
+    75%{ background: url(https://ideogram.ai/assets/progressive-image/balanced/response/abo3KMsfQEWhygqNXXqKBA);}
+    100%{ background: url(https://ideogram.ai/assets/progressive-image/balanced/response/oJ_0uFLhQ1ev4posaPFtJw);}
+}
